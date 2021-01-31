@@ -47,6 +47,7 @@ body:after {
 }
 
 .title {
+  margin-top: -130px;
   height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
