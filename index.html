@@ -36,21 +36,21 @@
   <div class="container">
     <div class="upper">
       <div class="left">
-        <span id="pageviews">100K</span> pageviews
+        <span id="pageviews"></span> pageviews
       </div>
       <div class="right">
-        <span>$<span id="price">16.00</span></span> / month
+        <span class="price">$<span id="price">16.00</span></span> / <span id="period">month</span>
       </div>
     </div>
 
     <div class="slider">
-      <input type="range" min="1" max="100" value="50">
+      <input type="range" min="1" max="5" value="3" id="slider">
     </div>
 
     <div class="toggle-container">
       Monthly Billing
       <label class="switch">
-        <input type="checkbox">
+        <input type="checkbox" id="toggle" onclick="discount()">
         <span class="slide round"></span>
       </label>
 
